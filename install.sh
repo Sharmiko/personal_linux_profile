@@ -6,3 +6,7 @@ unzip Sweet-Ambar
 cp -r ./Sweet-Ambar ~/.themes/
 xfconf-query -c xfwm4 -p /general/theme -s Sweet-Ambar
 
+# Install GTK theme
+git clone https://www.opencode.net/ju1464/Bazik.git
+cp -r ./Bazik/GTK-Gnome/Bazik_Dark_Green ~/.themes/
+xfconf-query -c xsettings -p /Net/ThemeName -s "Bazik_Dark_Green"
